@@ -1,0 +1,157 @@
+fqdn v1.5.1
+isoduration v20.11.0
+└── arrow v1.4.0
+    ├── python-dateutil v2.9.0.post0
+    │   └── six v1.17.0
+    └── tzdata v2025.2
+jsonpointer v3.0.0
+jupyterlab v4.4.9
+├── async-lru v2.0.5
+├── httpx v0.28.1
+│   ├── anyio v4.11.0
+│   │   ├── idna v3.11
+│   │   └── sniffio v1.3.1
+│   ├── certifi v2025.10.5
+│   ├── httpcore v1.0.9
+│   │   ├── certifi v2025.10.5
+│   │   └── h11 v0.16.0
+│   └── idna v3.11
+├── ipykernel v7.0.1
+│   ├── appnope v0.1.4
+│   ├── comm v0.2.3
+│   ├── debugpy v1.8.17
+│   ├── ipython v9.6.0
+│   │   ├── decorator v5.2.1
+│   │   ├── ipython-pygments-lexers v1.1.1
+│   │   │   └── pygments v2.19.2
+│   │   ├── jedi v0.19.2
+│   │   │   └── parso v0.8.5
+│   │   ├── matplotlib-inline v0.1.7
+│   │   │   └── traitlets v5.14.3
+│   │   ├── pexpect v4.9.0
+│   │   │   └── ptyprocess v0.7.0
+│   │   ├── prompt-toolkit v3.0.52
+│   │   │   └── wcwidth v0.2.14
+│   │   ├── pygments v2.19.2
+│   │   ├── stack-data v0.6.3
+│   │   │   ├── asttokens v3.0.0
+│   │   │   ├── executing v2.2.1
+│   │   │   └── pure-eval v0.2.3
+│   │   └── traitlets v5.14.3
+│   ├── jupyter-client v8.6.3
+│   │   ├── jupyter-core v5.9.1
+│   │   │   ├── platformdirs v4.5.0
+│   │   │   └── traitlets v5.14.3
+│   │   ├── python-dateutil v2.9.0.post0 (*)
+│   │   ├── pyzmq v27.1.0
+│   │   ├── tornado v6.5.2
+│   │   └── traitlets v5.14.3
+│   ├── jupyter-core v5.9.1 (*)
+│   ├── matplotlib-inline v0.1.7 (*)
+│   ├── nest-asyncio v1.6.0
+│   ├── packaging v25.0
+│   ├── psutil v7.1.1
+│   ├── pyzmq v27.1.0
+│   ├── tornado v6.5.2
+│   └── traitlets v5.14.3
+├── jinja2 v3.1.6
+│   └── markupsafe v3.0.3
+├── jupyter-core v5.9.1 (*)
+├── jupyter-lsp v2.3.0
+│   └── jupyter-server v2.17.0
+│       ├── anyio v4.11.0 (*)
+│       ├── argon2-cffi v25.1.0
+│       │   └── argon2-cffi-bindings v25.1.0
+│       │       └── cffi v2.0.0
+│       │           └── pycparser v2.23
+│       ├── jinja2 v3.1.6 (*)
+│       ├── jupyter-client v8.6.3 (*)
+│       ├── jupyter-core v5.9.1 (*)
+│       ├── jupyter-events v0.12.0
+│       │   ├── jsonschema v4.25.1
+│       │   │   ├── attrs v25.4.0
+│       │   │   ├── jsonschema-specifications v2025.9.1
+│       │   │   │   └── referencing v0.37.0
+│       │   │   │       ├── attrs v25.4.0
+│       │   │   │       └── rpds-py v0.27.1
+│       │   │   ├── referencing v0.37.0 (*)
+│       │   │   └── rpds-py v0.27.1
+│       │   ├── packaging v25.0
+│       │   ├── python-json-logger v4.0.0
+│       │   ├── pyyaml v6.0.3
+│       │   ├── referencing v0.37.0 (*)
+│       │   ├── rfc3339-validator v0.1.4
+│       │   │   └── six v1.17.0
+│       │   ├── rfc3986-validator v0.1.1
+│       │   └── traitlets v5.14.3
+│       ├── jupyter-server-terminals v0.5.3
+│       │   └── terminado v0.18.1
+│       │       ├── ptyprocess v0.7.0
+│       │       └── tornado v6.5.2
+│       ├── nbconvert v7.16.6
+│       │   ├── beautifulsoup4 v4.14.2
+│       │   │   ├── soupsieve v2.8
+│       │   │   └── typing-extensions v4.15.0
+│       │   ├── bleach v6.2.0
+│       │   │   └── webencodings v0.5.1
+│       │   ├── defusedxml v0.7.1
+│       │   ├── jinja2 v3.1.6 (*)
+│       │   ├── jupyter-core v5.9.1 (*)
+│       │   ├── jupyterlab-pygments v0.3.0
+│       │   ├── markupsafe v3.0.3
+│       │   ├── mistune v3.1.4
+│       │   ├── nbclient v0.10.2
+│       │   │   ├── jupyter-client v8.6.3 (*)
+│       │   │   ├── jupyter-core v5.9.1 (*)
+│       │   │   ├── nbformat v5.10.4
+│       │   │   │   ├── fastjsonschema v2.21.2
+│       │   │   │   ├── jsonschema v4.25.1 (*)
+│       │   │   │   ├── jupyter-core v5.9.1 (*)
+│       │   │   │   └── traitlets v5.14.3
+│       │   │   └── traitlets v5.14.3
+│       │   ├── nbformat v5.10.4 (*)
+│       │   ├── packaging v25.0
+│       │   ├── pandocfilters v1.5.1
+│       │   ├── pygments v2.19.2
+│       │   └── traitlets v5.14.3
+│       ├── nbformat v5.10.4 (*)
+│       ├── packaging v25.0
+│       ├── prometheus-client v0.23.1
+│       ├── pyzmq v27.1.0
+│       ├── send2trash v1.8.3
+│       ├── terminado v0.18.1 (*)
+│       ├── tornado v6.5.2
+│       ├── traitlets v5.14.3
+│       └── websocket-client v1.9.0
+├── jupyter-server v2.17.0 (*)
+├── jupyterlab-server v2.27.3
+│   ├── babel v2.17.0
+│   ├── jinja2 v3.1.6 (*)
+│   ├── json5 v0.12.1
+│   ├── jsonschema v4.25.1 (*)
+│   ├── jupyter-server v2.17.0 (*)
+│   ├── packaging v25.0
+│   └── requests v2.32.5
+│       ├── certifi v2025.10.5
+│       ├── charset-normalizer v3.4.4
+│       ├── idna v3.11
+│       └── urllib3 v2.5.0
+├── notebook-shim v0.2.4
+│   └── jupyter-server v2.17.0 (*)
+├── packaging v25.0
+├── setuptools v80.9.0
+├── tornado v6.5.2
+└── traitlets v5.14.3
+pandas v2.3.3
+├── numpy v2.3.4
+├── python-dateutil v2.9.0.post0 (*)
+├── pytz v2025.2
+└── tzdata v2025.2
+pip v25.1.1
+rfc3987-syntax v1.1.0
+└── lark v1.3.0
+tinycss2 v1.4.0
+└── webencodings v0.5.1
+uri-template v1.3.0
+webcolors v24.11.1
+(*) Package tree already displayed

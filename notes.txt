@@ -1,0 +1,12 @@
+For concurrent data fetching, threadPool is used.
+pandas.DataFrame is used to merge, clean, aggregate the {asks, bids}
+if we don't use pandas, we'll have to clean and aggregate iteratively.
+
+Though pandas is fast, it barely used all the CPUs,
+there is an alternative for DataFrames which uses all available CPUs: Polars(rust core).
+TODO: migrate to polars if time permits.
+
+Checklist:
+- Parallel fetch the exchange data -- done
+- Ratelimit decorator -- done
+- Clean & aggregate using pandas for faster calculations -- done.
