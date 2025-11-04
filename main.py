@@ -125,6 +125,7 @@ def fetch_all_data():
 def calculate_fast(qty: float = 10.0):
     print('Using dataframe..')
     all_data = fetch_all_data()
+    start = time.time()
     cb_data = all_data['cb']
     gem_data = all_data['gem']
     # *** Start CB
@@ -167,6 +168,7 @@ def calculate_fast(qty: float = 10.0):
     # ---
     merged_asks['cum_sum_qty'] = merged_asks['qty'].cumsum()
     merged_asks['cum_sum_execution_price'] = (merged_asks['price'] * merged_asks['qty']).cumsum()
+    print(f'Data preparation time: {1000*(time.time() - start):.2f} ms')
 
     # ---------------------------------
     print(f'To buy  {qty} BTC= $', calculate_execution_price_df(merged_asks, target_qt=qty))
